@@ -11,6 +11,10 @@ other = "Also available in"
 
 [de]
 other = "German"
+
+[fr]
+other = "French"
+
 # 404.html
 #
 [archives]

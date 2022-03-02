@@ -3,7 +3,7 @@
 
         <div class="post-info">
             {{ if .IsTranslated }}
-                {{ i18n "postAvailable" }}
+                {{ i18n "postAvailable" }}:
                 {{ range .Translations }}
                     <a href="{{ .Permalink }}" hreflang="{{ .Lang }}">{{ i18n .Lang }}</a>
                 {{ end}}

@@ -9,7 +9,7 @@
         </svg>
         {{ i18n "readingTime" .Page.ReadingTime }}
 
-        {{ if .IsTranslated }} | {{ i18n "postAvailable" }}
+        {{ if .IsTranslated }} | {{ i18n "postAvailable" }}:
           {{ range .Translations }}
             <a href="{{ .Permalink }}" hreflang="{{ .Lang }}">{{ i18n .Lang }}</a>
           {{ end}}

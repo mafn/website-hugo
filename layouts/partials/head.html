@@ -19,7 +19,7 @@
 {{ end }}
 
 {{ if .IsTranslated }}
-    {{ range .Translations }}
+    {{ range .AllTranslations }}
         <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}" />
     {{ end}}
 {{ end }}
